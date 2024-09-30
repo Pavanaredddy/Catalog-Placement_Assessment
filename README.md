@@ -8,7 +8,9 @@ index.js: Contains the main logic for decoding input values, implementing Lagran
 package.json: Contains project metadata and dependencies (e.g., big-integer for handling large integers).
 # Features
 Base Conversion: Supports converting values from various bases to decimal for easy calculations.
+
 Lagrange Interpolation: Implements the Lagrange interpolation polynomial to calculate the secret (c).
+
 Error Detection: Identifies points that do not conform to the expected polynomial.
 # How to Run the Project
 # Prerequisites
@@ -35,20 +37,35 @@ This will process the test cases defined in the code and output the secret and a
 # Input:
 
 The input consists of two test cases, each structured as follows:
+
 json
+
 {
+
     "keys": {
+    
         "n": <total points>,
+        
         "k": <minimum points needed to reconstruct the secret>
+        
     },
+    
     "<point_index>": {
+    
         "base": "<base>",
+        
         "value": "<value>"
+        
     }
+    
 }
+
 n: Total number of points.
+
 k: Minimum number of points required to reconstruct the secret.
+
 Each point is defined by its index, base, and value.
+
 # Output:
 
 Output for testcase 1
