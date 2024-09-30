@@ -1,4 +1,3 @@
-# Catalog Placement Assessment
 # Shamir_Secret_Sharing_problem.js
 # Overview
 This project implements Shamir's Secret Sharing algorithm, which allows a secret to be divided into parts, giving each participant its own unique part. A specified minimum number of parts (k) are required to reconstruct the original secret. This algorithm is particularly useful in scenarios requiring secure data sharing and distribution.
