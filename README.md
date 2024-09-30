@@ -4,6 +4,7 @@ This project implements Shamir's Secret Sharing algorithm, which allows a secret
 
 # Project Structure
 index.js: Contains the main logic for decoding input values, implementing Lagrange interpolation, and finding both the secret and any incorrect points.
+
 package.json: Contains project metadata and dependencies (e.g., big-integer for handling large integers).
 # Features
 Base Conversion: Supports converting values from various bases to decimal for easy calculations.
